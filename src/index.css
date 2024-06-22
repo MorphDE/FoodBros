@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Inter";
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+a {
+  text-decoration: none;
+}

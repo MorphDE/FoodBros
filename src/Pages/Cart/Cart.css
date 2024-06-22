@@ -1,0 +1,162 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.cart-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vw;
+}
+.cart-container img {
+  width: 30%;
+}
+
+.cart-box {
+  padding: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20vw;
+  background-color: #3c3b3b95;
+  margin: 5vw;
+  border-radius: 10px;
+}
+.cart-order {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.cart-total button {
+  width: 25vw;
+  height: 5vh;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: white;
+  background-color: #ff8a00;
+}
+
+.cart-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+  margin-top: 3vw;
+}
+
+.delivery-message {
+  margin-top: 30vw;
+}
+
+.cart-hidden {
+  display: none;
+}
+
+#delivery-message {
+  margin: 5vw 0;
+}
+
+.cart-setting {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 2vw;
+}
+
+.cart-counter button {
+  padding: 0.7vw 1.9vw;
+  margin: 0 2vw;
+  border: none;
+}
+
+.cart-counter button:nth-of-type(1) {
+  background-color: #929292;
+  color: #ff8a00;
+}
+.cart-counter button:nth-of-type(2) {
+  color: white;
+  background-color: #ff8a00;
+}
+
+.cart-img-hidden {
+  display: none;
+}
+
+.cart-img {
+  width: 65vw;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-itemname {
+    font-size: 1.2rem;
+  }
+
+  .cart-quantity {
+    font-size: 1.2rem;
+  }
+
+  .cart-price {
+    font-size: 1.2rem;
+  }
+
+  .btn-minus {
+    font-size: 1.2rem;
+  }
+
+  .btn-plus {
+    font-size: 1.2rem;
+  }
+
+  .total-price {
+    font-size: 1.5rem;
+  }
+
+  #buynow-btn {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cart-img {
+    width: 25vw !important;
+    margin-top: -7vw;
+  }
+  .cart-wrapper {
+    margin-top: 1vw;
+  }
+  .cart-box {
+    padding: 1vw;
+    gap: 5vw;
+    margin: 5vw 25vw;
+    justify-content: space-around;
+  }
+  .cart-setting {
+    gap: 0.5vw;
+    margin-top: 1vw;
+  }
+  .cart-counter button {
+    padding: 0.3vw 1vw;
+    margin: 0 0.5vw;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 2560px) {
+  .cart-box img {
+    width: 8vw;
+  }
+  .cart-box {
+    gap: 10vw;
+    width: 50vw;
+  }
+  .cart-order {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+  }
+}

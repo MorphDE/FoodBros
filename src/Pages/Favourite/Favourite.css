@@ -1,0 +1,65 @@
+.favourite-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+.favo-title {
+  color: #ff8a00;
+  margin-top: 2vh;
+  margin-bottom: 1.5vh;
+}
+
+.balken {
+  height: 0.3vh;
+  width: 80vw;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 138, 0, 0) 0%,
+    rgba(255, 138, 0, 1) 50%,
+    rgba(255, 138, 0, 0) 100%
+  );
+}
+
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favorite-foodcard {
+  color: white;
+  margin-top: 2vh;
+  background-color: #111111;
+  padding: 3vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  border-radius: 1rem;
+  width: 80vw;
+}
+
+.rating-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.favo-name {
+  margin-bottom: 2vh;
+  color: #ff8a00;
+  font-size: 1.2rem;
+}
+
+.favo-shortdesc {
+  margin-bottom: 2vh;
+  color: rgb(168, 168, 168);
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 2560px) {
+  .favorite-foodcard {
+    padding: 1vw;
+    width: 70vw;
+  }
+}

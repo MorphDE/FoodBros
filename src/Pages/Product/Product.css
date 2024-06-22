@@ -1,0 +1,131 @@
+.product img {
+  width: 60%;
+  margin-top: 10vw;
+}
+
+.product-back {
+  color: white;
+  align-self: flex-start;
+}
+
+.product {
+  color: #929292;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vw;
+  margin: 5vw 5vw;
+}
+.product-headline {
+  color: #929292;
+  display: flex;
+  gap: 2vw;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.product-headline h2 {
+  color: white;
+}
+
+.detail-counter {
+  display: flex;
+  align-items: center;
+  background-color: #c1c1c133;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 8vw;
+}
+.detail-counter button {
+  width: 8vw;
+  height: 5vh;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+.detail-counter button:nth-of-type(1) {
+  background-color: #929292;
+  color: #ff8a00;
+}
+.detail-counter button:nth-of-type(2) {
+  color: white;
+  background-color: #ff8a00;
+}
+.detail-counter p {
+  padding: 0 2vw;
+  color: white;
+}
+
+.product-buy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+.product-buy span {
+  color: #ff8a00;
+  padding-right: 1vw;
+}
+.product-buy button {
+  padding: 3vw 7vw;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff8a00;
+  color: white;
+  margin-bottom: 10vh;
+  cursor: pointer;
+}
+
+#price {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.cart-button-hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .detail-longdesc {
+    padding: 0 2vw;
+    color: white;
+    font-size: 1.2rem;
+  }
+  #price {
+    font-size: 1.8rem;
+  }
+  .price-label {
+    font-size: 1.5rem;
+  }
+  .cart-btn {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .product img {
+    width: 25%;
+    margin-top: 1vw;
+  }
+  .detail-counter {
+    margin-bottom: 2vw;
+  }
+  .detail-longdesc {
+    text-align: center;
+  }
+  .detail-counter button {
+    width: 3vw;
+  }
+  .product-headline {
+    gap: 1vw;
+    margin-bottom: 1vw;
+  }
+  .product-buy button {
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff8a00;
+    color: white;
+    margin-bottom: 3vh;
+  }
+}
